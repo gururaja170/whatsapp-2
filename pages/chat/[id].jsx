@@ -3,7 +3,7 @@ import React from "react";
 import { useAuthState } from "react-firebase-hooks/auth";
 import styled from "styled-components";
 import ChatScreen from "../../components/ChatScreen";
-import Sidebar from "../../components/sidebar";
+import Sidebar from "../../components/Sidebar";
 import { auth, db } from "../../firebase";
 import getReceiverEmail from "../../utils/getReceiverEmail";
 
